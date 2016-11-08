@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ylse_matinez.formulariocontactos.ActivityDetalleContacto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirmar_datos"
+        android:textStyle="bold"
+        android:textSize="@dimen/titulo"
+        />
+
+    <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="@dimen/top">
+
+         <TextView
+             android:id="@+id/tvNombre"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/nombre_completo"
+             android:textStyle="bold"
+             android:textSize="@dimen/texto"
+             />
+
+          <TextView
+              android:id="@+id/tvDatoNombre"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/lef"
+              android:textSize="@dimen/texto"
+              />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/tvFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fecha_nacimiento"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            />
+
+        <TextView
+            android:id="@+id/tvDatoFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lef"
+            android:textSize="@dimen/texto"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            />
+
+        <TextView
+            android:id="@+id/tvDatoTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lef"
+            android:textSize="@dimen/texto"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            />
+
+        <TextView
+            android:id="@+id/tvDatoEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lef"
+            android:textSize="@dimen/texto"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            />
+
+        <TextView
+            android:id="@+id/tvDatoDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lef"
+            android:textSize="@dimen/texto"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_Boton_Editar"
+        android:theme="@style/MiBotonRaise"
+        android:layout_marginTop="@dimen/boton_editar"
+        />
+</LinearLayout>
